@@ -1,0 +1,131 @@
+.black{
+    background-color: #000;   
+}
+.height{
+  height: 30px;
+}
+.pad-top1{
+    margin-top: -35px;
+}
+.txt-wht{
+    color: #fff;
+}
+.gray-clr{
+    color: rgb(51, 48, 48);
+}
+.font-fam{
+ font-family:monospace;
+}
+.size{
+    font-size: 1em;
+}
+.nav-size{
+    font-size: 1.3em;
+}
+.nav-item a{
+    color: gray;
+}
+.nav-item a:hover{
+    color:#000;
+    border-bottom: 1px solid rgb(207, 199, 151);
+}
+.line{
+    margin: 0px 40px 0px 40px;
+    width: 100%;
+    color: gray;
+}
+.container{
+    max-width: 100%;
+}
+.btn{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+h2{
+    font-size: 2.5em;
+    word-spacing: -0.02em;
+}
+.sld-clr{
+    background-color: rgb(207, 199, 151);
+}
+.search{
+    border-radius: 20px;
+}
+.body-img{
+   width: 100%;
+}
+.card{
+  box-shadow: 3px 3px 5px 5px gray;
+  color: #fff;
+  background-color: rgb(207, 199, 151) ;
+}
+.pro-bord{
+  box-sizing: border-box;
+  box-shadow: 3px 3px 5px 5px gray;
+  border-radius: 10px;
+  border-left: 30px solid  rgb(207, 199, 151);
+}
+.clr{
+  color:  rgb(202, 194, 150);
+}
+.abt-wid{
+    width: 80%;
+    height: 30%;
+}
+.txt-clr{
+    color: #fff;
+}
+.heighy-footer{
+    background-color: rgb(207, 199, 151);
+}
+.back-clr{
+   background-color: rgb(207, 199, 151) 
+}
+.heighy-footer a{
+   color: black;
+}
+.heighy-footer h3{
+    color: #fff;
+    font-weight: bold;
+}
+.top{
+    border-bottom: 4px solid rgb(207, 199, 151);
+}
+@media (max-width: 576px) 
+{ 
+    body{
+        background-color: rgb(238, 238, 238);
+    }
+    .mar-lft{
+        margin-left: 180px;
+    }
+    .top{
+        padding-bottom: 20px;
+    }
+    .pad-top{
+        margin-top: -60px;
+    }
+    .pad-top1{
+        margin-top: -40px;
+    }
+    .pad-top2{
+        padding-bottom: 10px;
+    }
+    .pad-top3{
+        padding:50px 0px 20px 90px;
+        
+    }
+    .pad-top4{
+        padding-bottom: 40px;
+    }
+    .pad-top5{
+        padding: 0px 10px 0px 10px;
+    }
+    .pad-top6{
+        padding-bottom: 10px;
+    }
+    .footer1{
+        display: none;
+    }
+ }
